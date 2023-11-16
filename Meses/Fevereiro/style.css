@@ -1,0 +1,69 @@
+@font-face {
+    font-family: cushion;
+    src: url(fonts/LTCushion-Medium.ttf);
+}
+@font-face {
+    font-family: emerald;
+    src: url(fonts/Lost\ Emerald.otf);
+}
+
+*{
+    font-family: cushion;
+}
+body{
+    background-color: #BCD0C7;
+    padding: 2em;
+}
+.buttons {
+    border-radius: 0.7em;
+    font-size: 0.9em;
+    padding: 0.3em;
+    margin-left: 0.8em;
+    margin-bottom: 0.3em;
+}
+
+.theInput {
+    border-radius: 0.7em;
+    margin-left: 0.8em;
+    margin-bottom: 0.3em;
+}
+
+.enviar,
+.apagar {
+    margin: 0.2em;
+    margin-left: 0.4em;
+    margin-right: 0.4em;
+}
+
+.enviarButton{
+    background-color: #97C697;
+}
+
+.apagarButton{
+    background-color: #E66C66;
+}
+
+.containerInput {
+    margin: 2em;
+}
+
+.tituloBox {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.titulo{
+    font-family: emerald;
+}
+
+.singleInput{
+    margin: 0.7em;
+}
+
+.charts{
+    background-color: rgb(255, 255, 255, 0.75);
+    border: solid thin black;
+    margin: 0.5em;
+    padding: 0.7em;
+}
